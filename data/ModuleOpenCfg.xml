@@ -685,6 +685,24 @@
 	<path></path>
 </config>
 <config>
+	<id>1455</id>
+	<uID></uID>
+	<name>装备升星</name>
+	<name_en></name_en>
+	<type>0</type>
+	<openType>3</openType>
+	<param>110401</param>
+	<icon>upgrade</icon>
+	<buildingName></buildingName>
+	<effectName>1451</effectName>
+	<timeSet>0.3</timeSet>
+	<position></position>
+	<describe>通关简单4-1副本开放</describe>
+	<describe_en></describe_en>
+	<order></order>
+	<path></path>
+</config>
+<config>
 	<id>1491</id>
 	<uID>149</uID>
 	<name>时装</name>
@@ -1248,8 +1266,8 @@
 	<name></name>
 	<name_en></name_en>
 	<type>0</type>
-	<openType>3</openType>
-	<param>110102</param>
+	<openType>1</openType>
+	<param></param>
 	<icon></icon>
 	<buildingName></buildingName>
 	<effectName></effectName>

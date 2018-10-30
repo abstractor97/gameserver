@@ -2,11 +2,15 @@ package com.game.module.log;
 
 import com.game.SysConfig;
 import com.game.event.InitHandler;
+import com.game.module.admin.ProhibitionEntity;
+import com.game.module.player.PlayerDao;
 import com.game.module.player.PlayerService;
 import com.server.util.MyTheadFactory;
 import com.server.util.ServerLogger;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.simple.ParameterizedBeanPropertyRowMapper;
 import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +20,8 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.Map.Entry;
@@ -25,25 +31,29 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
-//import com.game.module.log.domain.AbstractDb;
-
 @Service
 public class LoggerService implements InitHandler {
 
-    public static final String INS_DIAMOND_LOG = "insert into players_diamond_logs(player_id,item_id,op_type,param,count,create_time) values(?,?,?,?,?,now())";
-    public static final String ITEM_LOG = "insert into item_log(playerId,op,count,type,goodsId,goodsType,createTime) values(?,?,?,?,?,?,now())";
-    public static final String CHARGE_LOG = "insert into charge_log(role_id,role_name,charge_id,charge_type,amount,channel_id,create_time,paymentType) values(?,?,?,?,?,?,now(),?)";//充值日志
+    public static final String INS_DIAMOND_LOG = "insert into players_diamond_logs(player_id,item_id,op_type,param,count,server_id,lev,prev,next,create_time) values(?,?,?,?,?,?,?,?,?,now())";
+    public static final String ITEM_LOG = "insert into item_log(player_id,op,count,type,goods_id,goods_type,server_id,lev,prev,next,create_time) values(?,?,?,?,?,?,?,?,?,?,now())";
+    public static final String CHARGE_LOG = "insert into charge_log(role_id,role_name,charge_id,charge_type,amount,channel_id,payment_type,server_id,create_time) values(?,?,?,?,?,?,?,?,now())";//充值日志
+    public static final String SERVER_CHANGE = "UPDATE server set open=? where server_id=?";//改变服务器状态
+    public static final String NEW_USER = "insert into new_user(new_user_count,income,arpu,server_id,create_time,update_time) values(?,?,?,?,DATE_SUB(curdate(),INTERVAL 1 DAY),DATE_SUB(curdate(),INTERVAL 1 DAY))";//改变服务器状态
 
-
-    private SimpleJdbcTemplate loggerTemplate;//日志库
+    private static SimpleJdbcTemplate loggerTemplate;//日志库
     private SimpleJdbcTemplate mainTemplate;//主库
-    //private SimpleJdbcTemplate eventTemplate;//事件库
 
     @Autowired
     private PlayerService playerService;
+    @Autowired
+    private PlayerDao playerDao;
 
     public SimpleJdbcTemplate getDb() {
         return mainTemplate;
+    }
+
+    public SimpleJdbcTemplate getGmDb() {
+        return loggerTemplate;
     }
 
     @Resource(name = "logerDataSource")
@@ -56,20 +66,9 @@ public class LoggerService implements InitHandler {
         this.mainTemplate = new SimpleJdbcTemplate(dataSource);
     }
 
-    //@Resource(name = "eventDataSource")
-    //public void setEventTemplate(DataSource dataSource) {
-    //this.eventTemplate = new SimpleJdbcTemplate(dataSource);
-    //}
-
-    /*public SimpleJdbcTemplate getEventTemplate() {
-        return eventTemplate;
-    }*/
-
     private static final ScheduledExecutorService dbLogScheduExec = Executors.newScheduledThreadPool(SysConfig.loggerThread, new MyTheadFactory("LogerDb"));
 
     private static ConcurrentLinkedQueue<SQLWrapper> dbLoggers = new ConcurrentLinkedQueue<SQLWrapper>();
-    //private static ConcurrentLinkedQueue<AbstractDb> eventLoggers = new ConcurrentLinkedQueue<>();
-
 
     private static final int count = 100000;
 
@@ -92,9 +91,7 @@ public class LoggerService implements InitHandler {
 
     private static Map<Integer, BufferedWriter> writers = new HashMap<Integer, BufferedWriter>();
 
-    //web4399/20121210/web4399___s154___20121210___conislog___daily.txt
     private static String FILE_NAME = "";
-
 
     private String time;
 
@@ -137,37 +134,11 @@ public class LoggerService implements InitHandler {
                 }
             }
         }, 1, 5, TimeUnit.SECONDS);
-
     }
 
-
-    public void logStartServer(Object... params) {
-        addDbLogger(INS_DIAMOND_LOG, params);
+    public void logDiamond(int playerId, int count, int logId, boolean add, int lev, int prev, int next, Object... params) {
+        addDbLogger(INS_DIAMOND_LOG, playerId, logId, add ? ADD : DEC, StringUtils.join(params, ","), count, SysConfig.serverId, lev, prev, next);
     }
-
-    public void logDiamond(int playerId, int count, int logId, boolean add, Object... params) {
-        addDbLogger(INS_DIAMOND_LOG, playerId, logId, add ? ADD : DEC, StringUtils.join(params, ","), count);
-    }
-
-    //根据不同的表归类批量插入
-    /*private void handleLogEvent(boolean isShutDown) {
-        Map<String, List<Object[]>> logs = new HashMap<String, List<Object[]>>();
-        for (int i = 0; i < SysConfig.loggerBatchCount; i++) {
-            AbstractDb log = eventLoggers.poll();
-            if (log == null) {
-                break;
-            }
-            List<Object[]> params = logs.get(log.getSql());
-            if (params == null) {
-                params = new LinkedList<>();
-                logs.put(log.getSql(), params);
-            }
-            params.add(log.getParams());
-        }
-        for (Entry<String, List<Object[]>> entry : logs.entrySet()) {
-            eventTemplate.batchUpdate(entry.getKey(), entry.getValue());
-        }
-    }*/
 
     //根据不同的表归类批量插入
     private void handleLogDb(boolean isShutDown) {
@@ -293,43 +264,47 @@ public class LoggerService implements InitHandler {
         }
     }
 
-    /**
-     * 消耗日志
-     */
-    public void logConsume(int playerId, int lev, int vipLev, boolean add, int count, LogConsume log, int goodsId, int goodsType, Object... params) {
-        /*if (log == null) {
-            return;
-        }
-        Object p[] = new Object[]{playerId, lev, vipLev, add ? ADD : DEC, count, goodsType, goodsId, log.actionId, System.currentTimeMillis(), 0, 0, 0, 0};
-        if (params != null && params.length > 0) {
-            int len = params.length;
-            if (params.length > 4) {
-                ServerLogger.warn("err logger param count.must be less than 4");
-                len = 4;
-            }
-            for (int i = 0; i < len; i++) {
-                p[9 + i] = params[i];
-            }
-        }
-        log(TYPE_CONSUME, p);*/
+    //充值日志
+    public void logConsume(int playerId, int lev, int vipLev, boolean add, int count, LogConsume log, int goodsId, int goodsType, int prev, int next, Object... params) {
         if (dbLoggers.size() < count) {
-            addDbLogger(ITEM_LOG, playerId, add ? ADD : DEC, count, log.actionId, goodsId, goodsType);
+            addDbLogger(ITEM_LOG, playerId, add ? ADD : DEC, count, log.actionId, goodsId, goodsType, SysConfig.serverId, lev, prev, next);
         }
     }
-
 
     //插入数据库日志
     public void addDbLogger(String sql, Object... params) {
         dbLoggers.add(new SQLWrapper(sql, params));
     }
 
+    //充值日志
+    public void logCharge(int roleId, String roleName, int chargeId, String chargerType, float amount, int channelId, String paymentType) {
+        addDbLogger(CHARGE_LOG, roleId, roleName, chargeId, chargerType, amount, channelId, paymentType, SysConfig.serverId);
+    }
 
-    //插入数据库日志
-    /*public void addDbEvent(AbstractDb log) {
-        eventLoggers.add(log);
-    }*/
+    //更改服务器状态
+    public void serverChange(int open) {
+        addDbLogger(SERVER_CHANGE, open, SysConfig.serverId);
+    }
 
-    public void logCharge(int roleId, String roleName, int chargeId, String chargerType, float amount, int channelId,String paymentType) {
-        addDbLogger(CHARGE_LOG, roleId, roleName, chargeId, chargerType, amount, channelId,paymentType);
+    //获取封禁信息
+    public List<ProhibitionEntity> allProhibition() {
+        StringBuffer sql = new StringBuffer("select * from prohibition where 1=1 ");
+        sql.append(" and server_id=")
+                .append(SysConfig.serverId)
+                .append(" and closure_type=1");
+        return getGmDb().query(sql.toString(), ParameterizedBeanPropertyRowMapper.newInstance(ProhibitionEntity.class));
+    }
+
+    //更改服务器状态
+    public void updateNewUser() {
+        StringBuffer sql = new StringBuffer("SELECT sum(amount) FROM charge_log where payment_type!='test' and create_time>DATE_SUB(curdate(),INTERVAL 1 DAY) and create_time<DATE_SUB(curdate(),INTERVAL 0 DAY) and server_id=");
+        sql.append(SysConfig.serverId);
+        int income = getGmDb().queryForInt(sql.toString());
+        int newUserCount = playerDao.queryNewPlayer();
+        double arpu=0;
+        if(newUserCount!=0){
+            arpu = income / newUserCount;
+        }
+        addDbLogger(NEW_USER, newUserCount, income, arpu, SysConfig.serverId);
     }
 }

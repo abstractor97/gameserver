@@ -41,16 +41,6 @@
 	<tips_en></tips_en>
 </config>
 <config>
-	<id>8</id>
-	<tips>角色处于封禁中,请 联系客服</tips>
-	<tips_en></tips_en>
-</config>
-<config>
-	<id>9</id>
-	<tips>您的账号处于禁言中</tips>
-	<tips_en></tips_en>
-</config>
-<config>
 	<id>10</id>
 	<tips>等级不足</tips>
 	<tips_en></tips_en>
@@ -213,6 +203,11 @@
 <config>
 	<id>1204</id>
 	<tips>强化失败,返还50%材料</tips>
+	<tips_en></tips_en>
+</config>
+<config>
+	<id>1205</id>
+	<tips>升星失败</tips>
 	<tips_en></tips_en>
 </config>
 <config>
@@ -857,7 +852,7 @@
 </config>
 <config>
 	<id>4199</id>
-	<tips>C级宠物才可跟随玩家在主城显示</tips>
+	<tips>两星宠物才可跟随玩家在主城显示</tips>
 	<tips_en></tips_en>
 </config>
 <config>
@@ -993,6 +988,26 @@
 <config>
 	<id>4410</id>
 	<tips>Facebook玩家邀请奖励</tips>
+	<tips_en></tips_en>
+</config>
+<config>
+	<id>4501</id>
+	<tips>账户处于封禁中,请联系客服</tips>
+	<tips_en></tips_en>
+</config>
+<config>
+	<id>4502</id>
+	<tips>IP处于封禁中,请联系客服</tips>
+	<tips_en></tips_en>
+</config>
+<config>
+	<id>4503</id>
+	<tips>设备处于封禁中,请联系客服</tips>
+	<tips_en></tips_en>
+</config>
+<config>
+	<id>4504</id>
+	<tips>角色处于禁言中,请联系客服</tips>
 	<tips_en></tips_en>
 </config>
 </root>

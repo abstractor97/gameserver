@@ -27,23 +27,23 @@ public class MarryServlet extends SdkServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             String openId = req.getParameter("openId"); //
-            String nickName = req.getParameter("nickName"); //
-            String avatarUrl = req.getParameter("avatarUrl"); //
             int score = Integer.parseInt(req.getParameter("score")); //
 
-            ServerLogger.info("request param = ", openId, nickName, avatarUrl, req.getParameter("score"));
+            ServerLogger.info("request param = ", openId, req.getParameter("score"));
             if (StringUtils.isEmpty(openId)
-                    || StringUtils.isEmpty(nickName)
-                    || StringUtils.isEmpty(avatarUrl)
                     || score <= 0) {
-                resp.getWriter().write("request param error");
-                resp.getWriter().flush();
-                ServerLogger.warn("request param error = ", openId, nickName, avatarUrl, req.getParameter("score"));
+
+                render(resp, "request param error");
+//                resp.getWriter().write("request param error");
+//                resp.getWriter().flush();
+                ServerLogger.warn("request param error = ", openId, req.getParameter("score"));
                 return;
             }
 
             MarryService marryService = BeanManager.getBean(MarryService.class);
-            marryService.saveOrUpdateScore(openId.trim(), nickName, avatarUrl, score);
+            marryService.updateScore(openId.trim(), score);
+
+            render(resp, "");
 
         } catch (Exception e) {
             ServerLogger.err(e, "");

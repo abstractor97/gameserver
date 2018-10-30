@@ -65,7 +65,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem2</icon>
-	<name>钻石</name>
+	<name>首充12元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -90,7 +90,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem2</icon>
-	<name>钻石</name>
+	<name>充值12元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -115,7 +115,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem3</icon>
-	<name>钻石</name>
+	<name>首充30元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -140,7 +140,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem3</icon>
-	<name>钻石</name>
+	<name>充值30元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -165,7 +165,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem4</icon>
-	<name>钻石</name>
+	<name>首充98元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -190,7 +190,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem4</icon>
-	<name>钻石</name>
+	<name>充值98元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -215,7 +215,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem1</icon>
-	<name>钻石</name>
+	<name>首充6元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -240,7 +240,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem1</icon>
-	<name>钻石</name>
+	<name>充值6元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -265,7 +265,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem5</icon>
-	<name>钻石</name>
+	<name>首充198元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -290,7 +290,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem5</icon>
-	<name>钻石</name>
+	<name>充值198元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -315,7 +315,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem6</icon>
-	<name>钻石</name>
+	<name>首充328元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -340,7 +340,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem6</icon>
-	<name>钻石</name>
+	<name>充值328元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -365,7 +365,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem7</icon>
-	<name>钻石</name>
+	<name>首充648元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -390,7 +390,7 @@
 	<funds></funds>
 	<atlas>Gem</atlas>
 	<icon>gem7</icon>
-	<name>钻石</name>
+	<name>充值648元</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -630,7 +630,7 @@
 	<type>9</type>
 	<group>0</group>
 	<limit>1</limit>
-	<rmb>98</rmb>
+	<rmb>10</rmb>
 	<us>9.99</us>
 	<total>0</total>
 	<add>0</add>
@@ -655,7 +655,7 @@
 	<type>9</type>
 	<group>0</group>
 	<limit>1</limit>
-	<rmb>98</rmb>
+	<rmb>30</rmb>
 	<us>9.99</us>
 	<total>0</total>
 	<add>0</add>
@@ -705,7 +705,7 @@
 	<type>9</type>
 	<group>0</group>
 	<limit>1</limit>
-	<rmb>98</rmb>
+	<rmb>188</rmb>
 	<us>9.99</us>
 	<total>0</total>
 	<add>0</add>
@@ -715,7 +715,7 @@
 	<funds></funds>
 	<atlas></atlas>
 	<icon></icon>
-	<name>特价礼包1</name>
+	<name>特价礼包4</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -730,7 +730,7 @@
 	<type>9</type>
 	<group>0</group>
 	<limit>1</limit>
-	<rmb>98</rmb>
+	<rmb>328</rmb>
 	<us>9.99</us>
 	<total>0</total>
 	<add>0</add>
@@ -740,7 +740,7 @@
 	<funds></funds>
 	<atlas></atlas>
 	<icon></icon>
-	<name>特价礼包2</name>
+	<name>特价礼包5</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>
@@ -755,7 +755,7 @@
 	<type>9</type>
 	<group>0</group>
 	<limit>1</limit>
-	<rmb>98</rmb>
+	<rmb>648</rmb>
 	<us>9.99</us>
 	<total>0</total>
 	<add>0</add>
@@ -765,7 +765,7 @@
 	<funds></funds>
 	<atlas></atlas>
 	<icon></icon>
-	<name>特价礼包3</name>
+	<name>特价礼包6</name>
 	<name_en></name_en>
 	<rewards></rewards>
 	<shopGoodsId>0</shopGoodsId>

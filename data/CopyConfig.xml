@@ -413,7 +413,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20113001,1],[20123001,1],[20133001,1],[20112001,1],[20122001,1],[20132001,1],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -461,7 +461,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20213001,1],[20223001,1],[20233001,1],[20212001,1],[20222001,1],[20232001,1],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -557,7 +557,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20413001,1],[20423001,1],[20433001,1],[20412001,1],[20422001,1],[20432001,1],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -605,7 +605,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20513001,1],[20523001,1],[20533001,1],[20512001,1],[20522001,1],[20532001,1],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -647,13 +647,13 @@
 	<recommendFight>7695</recommendFight>
 	<lev>5</lev>
 	<count>0</count>
-	<firstReward>[[101,120],[20412010,1],[20422010,1],[20432010,1],[18000,1]]</firstReward>
+	<firstReward>[[101,10],[20412010,1],[20422010,1],[20432010,1],[18000,1]]</firstReward>
 	<rewards>[[133,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20613001,1],[20623001,1],[20633001,1],[20612001,1],[20622001,1],[20632001,1],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -695,13 +695,13 @@
 	<recommendFight>8201</recommendFight>
 	<lev>10</lev>
 	<count>0</count>
-	<firstReward>[[101,150],[20512010,1],[20522010,1],[20532010,1],[109,180]]</firstReward>
+	<firstReward>[[101,10],[20512010,1],[20522010,1],[20532010,1],[109,180]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20113010,1],[20123010,1],[20133010,1],[20112010,1],[20122010,1],[20132010,1],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -743,13 +743,13 @@
 	<recommendFight>8708</recommendFight>
 	<lev>10</lev>
 	<count>0</count>
-	<firstReward>[[101,190],[20612010,1],[20622010,1],[20632010,1],[50501,4],[137,180]]</firstReward>
+	<firstReward>[[101,10],[20612010,1],[20622010,1],[20632010,1],[50501,4],[137,180]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20113010,1],[20123010,1],[20133010,1],[20112010,1],[20122010,1],[20132010,1],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -786,12 +786,12 @@
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>9194</recommendFight>
 	<lev>10</lev>
 	<count>0</count>
-	<firstReward>[[101,230]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
@@ -839,13 +839,13 @@
 	<recommendFight>9700</recommendFight>
 	<lev>10</lev>
 	<count>0</count>
-	<firstReward>[[101,270]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20213010,1],[20223010,1],[20233010,1],[20212010,1],[20222010,1],[20232010,1],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -887,13 +887,13 @@
 	<recommendFight>10206</recommendFight>
 	<lev>10</lev>
 	<count>0</count>
-	<firstReward>[[101,320]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20313010,1],[20323010,1],[20333010,1],[20312010,1],[20322010,1],[20332010,1],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -935,13 +935,13 @@
 	<recommendFight>10712</recommendFight>
 	<lev>10</lev>
 	<count>0</count>
-	<firstReward>[[101,370],[20112020,1],[20122020,1],[20132020,1]]</firstReward>
+	<firstReward>[[101,10],[20112020,1],[20122020,1],[20132020,1]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,60,60,60,30,30,30]</randomRates>
 	<randomRewards>[[20313010,1],[20323010,1],[20333010,1],[20312010,1],[20322010,1],[20332010,1],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -983,13 +983,13 @@
 	<recommendFight>13142</recommendFight>
 	<lev>15</lev>
 	<count>0</count>
-	<firstReward>[[101,430],[20212020,1],[20222020,1],[20232020,1]]</firstReward>
+	<firstReward>[[101,10],[20212020,1],[20222020,1],[20232020,1]]</firstReward>
 	<rewards>[[133,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413010,1],[20423010,1],[20433010,1],[108,20],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1031,13 +1031,13 @@
 	<recommendFight>13730</recommendFight>
 	<lev>15</lev>
 	<count>0</count>
-	<firstReward>[[101,480],[20312020,1],[20322020,1],[20332020,1]]</firstReward>
+	<firstReward>[[101,10],[20312020,1],[20322020,1],[20332020,1]]</firstReward>
 	<rewards>[[133,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413010,1],[20423010,1],[20433010,1],[108,20],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1074,12 +1074,12 @@
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>14337</recommendFight>
 	<lev>15</lev>
 	<count>0</count>
-	<firstReward>[[101,230],[20412020,1],[20422020,1],[20432020,1]]</firstReward>
+	<firstReward>[[101,10],[20412020,1],[20422020,1],[20432020,1]]</firstReward>
 	<rewards>[[133,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
@@ -1127,13 +1127,13 @@
 	<recommendFight>14945</recommendFight>
 	<lev>15</lev>
 	<count>0</count>
-	<firstReward>[[101,230],[20512020,1],[20522020,1],[20532020,1]]</firstReward>
+	<firstReward>[[101,10],[20512020,1],[20522020,1],[20532020,1]]</firstReward>
 	<rewards>[[133,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20513010,1],[20523010,1],[20533010,1],[108,20],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1175,13 +1175,13 @@
 	<recommendFight>15532</recommendFight>
 	<lev>15</lev>
 	<count>0</count>
-	<firstReward>[[101,265],[20612020,1],[20622020,1],[20632020,1]]</firstReward>
+	<firstReward>[[101,15],[20612020,1],[20622020,1],[20632020,1]]</firstReward>
 	<rewards>[[133,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613010,1],[20623010,1],[20633010,1],[108,20],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1223,13 +1223,13 @@
 	<recommendFight>16139</recommendFight>
 	<lev>15</lev>
 	<count>0</count>
-	<firstReward>[[101,265],[109,10],[10901,10]]</firstReward>
+	<firstReward>[[101,10],[109,10],[10901,10]]</firstReward>
 	<rewards>[[133,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613010,1],[20623010,1],[20633010,1],[108,20],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1271,13 +1271,13 @@
 	<recommendFight>16727</recommendFight>
 	<lev>20</lev>
 	<count>0</count>
-	<firstReward>[[101,300]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113020,1],[20123020,1],[20133020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1319,13 +1319,13 @@
 	<recommendFight>17334</recommendFight>
 	<lev>20</lev>
 	<count>0</count>
-	<firstReward>[[101,300]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113020,1],[20123020,1],[20133020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1362,12 +1362,12 @@
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>17942</recommendFight>
 	<lev>20</lev>
 	<count>0</count>
-	<firstReward>[[101,335]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
@@ -1415,13 +1415,13 @@
 	<recommendFight>18529</recommendFight>
 	<lev>20</lev>
 	<count>0</count>
-	<firstReward>[[101,335]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20213020,1],[20223020,1],[20233020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1463,13 +1463,13 @@
 	<recommendFight>19136</recommendFight>
 	<lev>20</lev>
 	<count>0</count>
-	<firstReward>[[101,220]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313020,1],[20323020,1],[20333020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1511,13 +1511,13 @@
 	<recommendFight>19724</recommendFight>
 	<lev>20</lev>
 	<count>0</count>
-	<firstReward>[[101,220]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313020,1],[20323020,1],[20333020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1559,13 +1559,13 @@
 	<recommendFight>20331</recommendFight>
 	<lev>25</lev>
 	<count>0</count>
-	<firstReward>[[101,220]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[135,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413020,1],[20423020,1],[20433020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1607,13 +1607,13 @@
 	<recommendFight>20939</recommendFight>
 	<lev>25</lev>
 	<count>0</count>
-	<firstReward>[[101,250]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[135,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413020,1],[20423020,1],[20433020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1650,12 +1650,12 @@
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>21526</recommendFight>
 	<lev>25</lev>
 	<count>0</count>
-	<firstReward>[[101,250]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[135,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
@@ -1703,13 +1703,13 @@
 	<recommendFight>22133</recommendFight>
 	<lev>25</lev>
 	<count>0</count>
-	<firstReward>[[101,250]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[135,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20513020,1],[20523020,1],[20533020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1757,7 +1757,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613020,1],[20623020,1],[20633020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1799,13 +1799,13 @@
 	<recommendFight>23328</recommendFight>
 	<lev>25</lev>
 	<count>0</count>
-	<firstReward>[[101,750]]</firstReward>
+	<firstReward>[[101,10]]</firstReward>
 	<rewards>[[135,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613020,1],[20623020,1],[20633020,1],[108,20],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1847,13 +1847,13 @@
 	<recommendFight>23936</recommendFight>
 	<lev>30</lev>
 	<count>0</count>
-	<firstReward>[[101,1310],[304001,30],[20212030,1],[20222030,1],[20232030,1]]</firstReward>
+	<firstReward>[[101,310],[304001,30],[20212030,1],[20222030,1],[20232030,1]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113030,1],[20123030,1],[20133030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1893,15 +1893,15 @@
 	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>24523</recommendFight>
-	<lev>30</lev>
+	<lev>31</lev>
 	<count>0</count>
-	<firstReward>[[101,1410],[20312030,1],[20322030,1],[20332030,1]]</firstReward>
+	<firstReward>[[101,410],[20312030,1],[20322030,1],[20332030,1]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113030,1],[20123030,1],[20133030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -1938,12 +1938,12 @@
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>25130</recommendFight>
-	<lev>30</lev>
+	<lev>32</lev>
 	<count>0</count>
-	<firstReward>[[101,1520],[20412030,1],[20422030,1],[20432030,1]]</firstReward>
+	<firstReward>[[101,520],[20412030,1],[20422030,1],[20432030,1]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
@@ -1989,15 +1989,15 @@
 	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>25718</recommendFight>
-	<lev>30</lev>
+	<lev>33</lev>
 	<count>0</count>
-	<firstReward>[[101,1880],[20512030,1],[20522030,1],[20532030,1]]</firstReward>
+	<firstReward>[[101,880],[20512030,1],[20522030,1],[20532030,1]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20213030,1],[20223030,1],[20233030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2037,15 +2037,15 @@
 	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>26325</recommendFight>
-	<lev>30</lev>
+	<lev>34</lev>
 	<count>0</count>
-	<firstReward>[[101,1010],[20612030,1],[20622030,1],[20632030,1]]</firstReward>
+	<firstReward>[[101,10],[20612030,1],[20622030,1],[20632030,1]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
 	<reviveCost>[[102,100]]</reviveCost>
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313030,1],[20323030,1],[20333030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2085,7 +2085,7 @@
 	<timeLimit>300</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>26933</recommendFight>
-	<lev>30</lev>
+	<lev>35</lev>
 	<count>0</count>
 	<firstReward>[[101,2150]]</firstReward>
 	<rewards>[[131,60],[101,90],[103,1000]]</rewards>
@@ -2093,7 +2093,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313030,1],[20323030,1],[20333030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2141,7 +2141,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413030,1],[20423030,1],[20433030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2189,7 +2189,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413030,1],[20423030,1],[20433030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2226,7 +2226,7 @@
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>28715</recommendFight>
 	<lev>40</lev>
@@ -2285,7 +2285,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20513030,1],[20523030,1],[20533030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2333,7 +2333,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613030,1],[20623030,1],[20633030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2381,7 +2381,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613030,1],[20623030,1],[20633030,1],[108,20],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2429,7 +2429,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113040,1],[20123040,1],[20133040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2469,7 +2469,7 @@
 	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>31712</recommendFight>
-	<lev>41</lev>
+	<lev>42</lev>
 	<count>0</count>
 	<firstReward>[[101,940],[20612040,1],[20622040,1],[20632040,1]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
@@ -2477,7 +2477,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113040,1],[20123040,1],[20133040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2514,10 +2514,10 @@
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>32319</recommendFight>
-	<lev>41</lev>
+	<lev>43</lev>
 	<count>0</count>
 	<firstReward>[[101,940]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
@@ -2565,7 +2565,7 @@
 	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>32927</recommendFight>
-	<lev>41</lev>
+	<lev>44</lev>
 	<count>0</count>
 	<firstReward>[[101,993]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
@@ -2573,7 +2573,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20213040,1],[20223040,1],[20233040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2613,7 +2613,7 @@
 	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>33514</recommendFight>
-	<lev>41</lev>
+	<lev>45</lev>
 	<count>0</count>
 	<firstReward>[[101,993]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
@@ -2621,7 +2621,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313040,1],[20323040,1],[20333040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2661,7 +2661,7 @@
 	<timeLimit>300</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>34121</recommendFight>
-	<lev>41</lev>
+	<lev>45</lev>
 	<count>0</count>
 	<firstReward>[[101,1747]]</firstReward>
 	<rewards>[[137,60],[101,90],[103,1000]]</rewards>
@@ -2669,7 +2669,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313040,1],[20323040,1],[20333040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2717,7 +2717,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413040,1],[20423040,1],[20433040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2765,7 +2765,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413040,1],[20423040,1],[20433040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2802,7 +2802,7 @@
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>35924</recommendFight>
 	<lev>46</lev>
@@ -2861,7 +2861,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20513040,1],[20523040,1],[20533040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2909,7 +2909,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613040,1],[20623040,1],[20633040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -2957,7 +2957,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613040,1],[20623040,1],[20633040,1],[108,20],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3005,7 +3005,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113050,1],[20123050,1],[20133050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3053,7 +3053,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113050,1],[20123050,1],[20133050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3090,7 +3090,7 @@
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>39508</recommendFight>
 	<lev>50</lev>
@@ -3149,7 +3149,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20213050,1],[20223050,1],[20233050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3197,7 +3197,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313050,1],[20323050,1],[20333050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3245,7 +3245,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313050,1],[20323050,1],[20333050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3293,7 +3293,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413050,1],[20423050,1],[20433050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3341,7 +3341,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413050,1],[20423050,1],[20433050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3378,7 +3378,7 @@
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>43112</recommendFight>
 	<lev>54</lev>
@@ -3437,7 +3437,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20513050,1],[20523050,1],[20533050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3485,7 +3485,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613050,1],[20623050,1],[20633050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3533,7 +3533,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613050,1],[20623050,1],[20633050,1],[108,20],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3581,7 +3581,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113060,1],[20123060,1],[20133060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3629,7 +3629,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113060,1],[20123060,1],[20133060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3666,7 +3666,7 @@
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>46697</recommendFight>
 	<lev>56</lev>
@@ -3725,7 +3725,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20213060,1],[20223060,1],[20233060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3773,7 +3773,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313060,1],[20323060,1],[20333060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3821,7 +3821,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313060,1],[20323060,1],[20333060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3869,7 +3869,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413060,1],[20423060,1],[20433060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3917,7 +3917,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413060,1],[20423060,1],[20433060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -3954,7 +3954,7 @@
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>50301</recommendFight>
 	<lev>60</lev>
@@ -4013,7 +4013,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20513060,1],[20523060,1],[20533060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4061,7 +4061,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613060,1],[20623060,1],[20633060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4109,7 +4109,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613060,1],[20623060,1],[20633060,1],[108,20],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4157,7 +4157,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113070,1],[20123070,1],[20133070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4205,7 +4205,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20113070,1],[20123070,1],[20133070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4242,7 +4242,7 @@
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>53906</recommendFight>
 	<lev>65</lev>
@@ -4301,7 +4301,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20213070,1],[20223070,1],[20233070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4349,7 +4349,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313070,1],[20323070,1],[20333070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4397,7 +4397,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20313070,1],[20323070,1],[20333070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4445,7 +4445,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413070,1],[20423070,1],[20433070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4493,7 +4493,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20413070,1],[20423070,1],[20433070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4530,7 +4530,7 @@
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>57490</recommendFight>
 	<lev>70</lev>
@@ -4589,7 +4589,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20513070,1],[20523070,1],[20533070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4637,7 +4637,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613070,1],[20623070,1],[20633070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4685,7 +4685,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,150,30,30,30]</randomRates>
 	<randomRewards>[[20613070,1],[20623070,1],[20633070,1],[108,20],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4715,14 +4715,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110101</preId>
 	<scenes>[1201031,1201032,1201033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>22275</recommendFight>
 	<lev>1</lev>
@@ -4763,14 +4763,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110102</preId>
 	<scenes>[1201061,1201062,1201063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>24503</recommendFight>
 	<lev>1</lev>
@@ -4811,14 +4811,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110103</preId>
 	<scenes>[1201031,1201032,1201033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -4859,7 +4859,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110104</preId>
 	<scenes>[1201041,1201042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -4877,7 +4877,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214030,2],[20224030,2],[20234030,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4907,7 +4907,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110105</preId>
 	<scenes>[1201051,1201052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -4925,7 +4925,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314030,2],[20324030,2],[20334030,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -4955,7 +4955,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110106</preId>
 	<scenes>[1201061,1201062,1201063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -4973,7 +4973,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314030,2],[20324030,2],[20334030,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5003,14 +5003,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110201</preId>
 	<scenes>[1202031,1202032,1202033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>26953</recommendFight>
 	<lev>1</lev>
@@ -5051,14 +5051,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110202</preId>
 	<scenes>[1202061,1202062,1202063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>29646</recommendFight>
 	<lev>1</lev>
@@ -5099,14 +5099,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110203</preId>
 	<scenes>[1202031,1202032,1202033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -5147,7 +5147,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110204</preId>
 	<scenes>[1202041,1202042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5165,7 +5165,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20514030,2],[20524030,2],[20534030,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5195,7 +5195,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110205</preId>
 	<scenes>[1202051,1202052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5213,7 +5213,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614030,2],[20624030,2],[20634030,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5243,7 +5243,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110206</preId>
 	<scenes>[1202061,1202062,1202063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5261,7 +5261,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614030,2],[20624030,2],[20634030,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5291,14 +5291,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110301</preId>
 	<scenes>[1203031,1203032,1203033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>32603</recommendFight>
 	<lev>1</lev>
@@ -5339,14 +5339,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110302</preId>
 	<scenes>[1203061,1203062,1203063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>35863</recommendFight>
 	<lev>1</lev>
@@ -5387,14 +5387,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110303</preId>
 	<scenes>[1203031,1203032,1203033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -5435,7 +5435,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110304</preId>
 	<scenes>[1203041,1203042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5453,7 +5453,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214030,2],[20224030,2],[20234030,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5483,7 +5483,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110305</preId>
 	<scenes>[1203051,1203052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5501,7 +5501,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214030,2],[20224030,2],[20234030,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5531,7 +5531,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110306</preId>
 	<scenes>[1203061,1203062,1203063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5549,7 +5549,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214030,2],[20224030,2],[20234030,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5579,14 +5579,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110401</preId>
 	<scenes>[1204031,1204032,1204033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>39447</recommendFight>
 	<lev>1</lev>
@@ -5627,14 +5627,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110402</preId>
 	<scenes>[1204061,1204062,1204063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>43396</recommendFight>
 	<lev>1</lev>
@@ -5675,14 +5675,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110403</preId>
 	<scenes>[1204031,1204032,1204033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -5723,7 +5723,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110404</preId>
 	<scenes>[1204041,1204042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5741,7 +5741,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214040,2],[20224040,2],[20234040,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5771,7 +5771,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110405</preId>
 	<scenes>[1204051,1204052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5789,7 +5789,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314040,2],[20324040,2],[20334040,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5819,7 +5819,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110406</preId>
 	<scenes>[1204061,1204062,1204063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -5837,7 +5837,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314040,2],[20324040,2],[20334040,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -5867,14 +5867,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110501</preId>
 	<scenes>[1205031,1205032,1205033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>47729</recommendFight>
 	<lev>1</lev>
@@ -5915,14 +5915,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110502</preId>
 	<scenes>[1205061,1205062,1205063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>52508</recommendFight>
 	<lev>1</lev>
@@ -5963,14 +5963,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110503</preId>
 	<scenes>[1205031,1205032,1205033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -6011,7 +6011,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110504</preId>
 	<scenes>[1205041,1205042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6029,7 +6029,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20514040,2],[20524040,2],[20534040,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6059,7 +6059,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110505</preId>
 	<scenes>[1205051,1205052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6077,7 +6077,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614040,2],[20624040,2],[20634040,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6107,7 +6107,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110506</preId>
 	<scenes>[1205061,1205062,1205063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6125,7 +6125,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614040,2],[20624040,2],[20634040,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6155,14 +6155,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110601</preId>
 	<scenes>[1206031,1206032,1206033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>57753</recommendFight>
 	<lev>1</lev>
@@ -6203,14 +6203,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110602</preId>
 	<scenes>[1206061,1206062,1206063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>63524</recommendFight>
 	<lev>1</lev>
@@ -6251,14 +6251,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110603</preId>
 	<scenes>[1206031,1206032,1206033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -6299,7 +6299,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110604</preId>
 	<scenes>[1206041,1206042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6317,7 +6317,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214040,2],[20224040,2],[20234040,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6347,7 +6347,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110605</preId>
 	<scenes>[1206051,1206052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6365,7 +6365,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214040,2],[20224040,2],[20234040,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6395,7 +6395,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110606</preId>
 	<scenes>[1206061,1206062,1206063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6413,7 +6413,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214040,2],[20224040,2],[20234040,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6443,14 +6443,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110701</preId>
 	<scenes>[1207031,1207032,1207033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>69883</recommendFight>
 	<lev>1</lev>
@@ -6491,14 +6491,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110702</preId>
 	<scenes>[1207061,1207062,1207063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>76869</recommendFight>
 	<lev>1</lev>
@@ -6539,14 +6539,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110703</preId>
 	<scenes>[1207031,1207032,1207033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -6587,7 +6587,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110704</preId>
 	<scenes>[1207041,1207042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6605,7 +6605,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214050,2],[20224050,2],[20234050,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6635,7 +6635,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110705</preId>
 	<scenes>[1207051,1207052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6653,7 +6653,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314050,2],[20324050,2],[20334050,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6683,7 +6683,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110706</preId>
 	<scenes>[1207061,1207062,1207063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6701,7 +6701,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314050,2],[20324050,2],[20334050,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6731,14 +6731,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110801</preId>
 	<scenes>[1208031,1208032,1208033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>84564</recommendFight>
 	<lev>1</lev>
@@ -6779,14 +6779,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110802</preId>
 	<scenes>[1208061,1208062,1208063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>93029</recommendFight>
 	<lev>1</lev>
@@ -6827,14 +6827,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110803</preId>
 	<scenes>[1208031,1208032,1208033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -6875,7 +6875,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110804</preId>
 	<scenes>[1208041,1208042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6893,7 +6893,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20514050,2],[20524050,2],[20534050,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6923,7 +6923,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110805</preId>
 	<scenes>[1208051,1208052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6941,7 +6941,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614050,2],[20624050,2],[20634050,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -6971,7 +6971,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110806</preId>
 	<scenes>[1208061,1208062,1208063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -6989,7 +6989,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614050,2],[20624050,2],[20634050,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7019,14 +7019,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110901</preId>
 	<scenes>[1209031,1209032,1209033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>102323</recommendFight>
 	<lev>1</lev>
@@ -7067,14 +7067,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110902</preId>
 	<scenes>[1209061,1209062,1209063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>112550</recommendFight>
 	<lev>1</lev>
@@ -7115,14 +7115,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110903</preId>
 	<scenes>[1209031,1209032,1209033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -7163,7 +7163,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110904</preId>
 	<scenes>[1209041,1209042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7181,7 +7181,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214050,2],[20224050,2],[20234050,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7211,7 +7211,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110905</preId>
 	<scenes>[1209051,1209052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7229,7 +7229,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214050,2],[20224050,2],[20234050,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7259,7 +7259,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>110906</preId>
 	<scenes>[1209061,1209062,1209063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7277,7 +7277,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214050,2],[20224050,2],[20234050,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7307,14 +7307,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111001</preId>
 	<scenes>[1210031,1210032,1210033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>123809</recommendFight>
 	<lev>1</lev>
@@ -7355,14 +7355,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111002</preId>
 	<scenes>[1210061,1210062,1210063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>136181</recommendFight>
 	<lev>1</lev>
@@ -7403,14 +7403,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111003</preId>
 	<scenes>[1210031,1210032,1210033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -7451,7 +7451,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111004</preId>
 	<scenes>[1210041,1210042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7469,7 +7469,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214060,2],[20224060,2],[20234060,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7499,7 +7499,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111005</preId>
 	<scenes>[1210051,1210052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7517,7 +7517,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314060,2],[20324060,2],[20334060,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7547,7 +7547,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111006</preId>
 	<scenes>[1210061,1210062,1210063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7565,7 +7565,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314060,2],[20324060,2],[20334060,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7595,14 +7595,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111101</preId>
 	<scenes>[1211031,1211032,1211033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>149810</recommendFight>
 	<lev>1</lev>
@@ -7643,14 +7643,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111102</preId>
 	<scenes>[1211061,1211062,1211063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>164795</recommendFight>
 	<lev>1</lev>
@@ -7691,14 +7691,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111103</preId>
 	<scenes>[1211031,1211032,1211033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -7739,7 +7739,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111104</preId>
 	<scenes>[1211041,1211042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7757,7 +7757,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20514060,2],[20524060,2],[20534060,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7787,7 +7787,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111105</preId>
 	<scenes>[1211051,1211052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7805,7 +7805,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614060,2],[20624060,2],[20634060,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7835,7 +7835,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111106</preId>
 	<scenes>[1211061,1211062,1211063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -7853,7 +7853,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614060,2],[20624060,2],[20634060,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -7883,14 +7883,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111201</preId>
 	<scenes>[1212031,1212032,1212033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>181278</recommendFight>
 	<lev>1</lev>
@@ -7931,14 +7931,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111202</preId>
 	<scenes>[1212061,1212062,1212063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>199402</recommendFight>
 	<lev>1</lev>
@@ -7979,14 +7979,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111203</preId>
 	<scenes>[1212031,1212032,1212033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -8027,7 +8027,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111204</preId>
 	<scenes>[1212041,1212042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8045,7 +8045,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214060,2],[20224060,2],[20234060,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8075,7 +8075,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111205</preId>
 	<scenes>[1212051,1212052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8093,7 +8093,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214060,2],[20224060,2],[20234060,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8123,7 +8123,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111206</preId>
 	<scenes>[1212061,1212062,1212063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8141,7 +8141,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214060,2],[20224060,2],[20234060,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8171,14 +8171,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111301</preId>
 	<scenes>[1213031,1213032,1213033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>219348</recommendFight>
 	<lev>1</lev>
@@ -8219,14 +8219,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111302</preId>
 	<scenes>[1213061,1213062,1213063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>241279</recommendFight>
 	<lev>1</lev>
@@ -8267,14 +8267,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111303</preId>
 	<scenes>[1213031,1213032,1213033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -8315,7 +8315,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111304</preId>
 	<scenes>[1213041,1213042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8333,7 +8333,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214070,2],[20224070,2],[20234070,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8363,7 +8363,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111305</preId>
 	<scenes>[1213051,1213052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8381,7 +8381,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314070,2],[20324070,2],[20334070,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8411,7 +8411,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111306</preId>
 	<scenes>[1213061,1213062,1213063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8429,7 +8429,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20314070,2],[20324070,2],[20334070,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8459,14 +8459,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111401</preId>
 	<scenes>[1214031,1214032,1214033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>265417</recommendFight>
 	<lev>1</lev>
@@ -8507,14 +8507,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111402</preId>
 	<scenes>[1214061,1214062,1214063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>291965</recommendFight>
 	<lev>1</lev>
@@ -8555,14 +8555,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111403</preId>
 	<scenes>[1214031,1214032,1214033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -8603,7 +8603,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111404</preId>
 	<scenes>[1214041,1214042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8621,7 +8621,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20514070,2],[20524070,2],[20534070,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8651,7 +8651,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111405</preId>
 	<scenes>[1214051,1214052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8669,7 +8669,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614070,2],[20624070,2],[20634070,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8699,7 +8699,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111406</preId>
 	<scenes>[1214061,1214062,1214063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8717,7 +8717,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614070,2],[20624070,2],[20634070,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8747,14 +8747,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111501</preId>
 	<scenes>[1215031,1215032,1215033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>321165</recommendFight>
 	<lev>1</lev>
@@ -8795,14 +8795,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111502</preId>
 	<scenes>[1215061,1215062,1215063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>353282</recommendFight>
 	<lev>1</lev>
@@ -8843,14 +8843,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111503</preId>
 	<scenes>[1215031,1215032,1215033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -8891,7 +8891,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111504</preId>
 	<scenes>[1215041,1215042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8909,7 +8909,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214070,2],[20224070,2],[20234070,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8939,7 +8939,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111505</preId>
 	<scenes>[1215051,1215052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -8957,7 +8957,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214070,2],[20224070,2],[20234070,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -8987,7 +8987,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111506</preId>
 	<scenes>[1215061,1215062,1215063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -9005,7 +9005,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20214070,2],[20224070,2],[20234070,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9035,14 +9035,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111601</preId>
 	<scenes>[1216031,1216032,1216033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>388618</recommendFight>
 	<lev>1</lev>
@@ -9083,14 +9083,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111602</preId>
 	<scenes>[1216061,1216062,1216063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>427478</recommendFight>
 	<lev>1</lev>
@@ -9131,14 +9131,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111603</preId>
 	<scenes>[1216031,1216032,1216033]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -9179,7 +9179,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111604</preId>
 	<scenes>[1216041,1216042]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -9197,7 +9197,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20514080,2],[20524080,2],[20534080,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9227,7 +9227,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111605</preId>
 	<scenes>[1216051,1216052]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -9245,7 +9245,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614080,2],[20624080,2],[20634080,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9275,7 +9275,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>111606</preId>
 	<scenes>[1216061,1216062,1216063]</scenes>
 	<type>1</type>
 	<difficulty>2</difficulty>
@@ -9293,7 +9293,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20614080,2],[20624080,2],[20634080,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9323,14 +9323,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120101</preId>
 	<scenes>[1301031,1301032,1301033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>52245</recommendFight>
 	<lev>1</lev>
@@ -9371,14 +9371,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120102</preId>
 	<scenes>[1301061,1301062,1301063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>57470</recommendFight>
 	<lev>1</lev>
@@ -9419,14 +9419,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120103</preId>
 	<scenes>[1301031,1301032,1301033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -9467,7 +9467,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120104</preId>
 	<scenes>[1301041,1301042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -9485,7 +9485,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215040,2],[20225040,2],[20235040,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9515,7 +9515,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120105</preId>
 	<scenes>[1301051,1301052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -9533,7 +9533,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315040,2],[20325040,2],[20335040,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9563,7 +9563,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120106</preId>
 	<scenes>[1301061,1301062,1301063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -9581,7 +9581,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315040,2],[20325040,2],[20335040,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9611,14 +9611,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120201</preId>
 	<scenes>[1302031,1302032,1302033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>63221</recommendFight>
 	<lev>1</lev>
@@ -9659,14 +9659,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120202</preId>
 	<scenes>[1302061,1302062,1302063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>69539</recommendFight>
 	<lev>1</lev>
@@ -9707,14 +9707,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120203</preId>
 	<scenes>[1302031,1302032,1302033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -9755,7 +9755,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120204</preId>
 	<scenes>[1302041,1302042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -9773,7 +9773,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20515040,2],[20525040,2],[20535040,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9803,7 +9803,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120205</preId>
 	<scenes>[1302051,1302052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -9821,7 +9821,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615040,2],[20625040,2],[20635040,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9851,7 +9851,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120206</preId>
 	<scenes>[1302061,1302062,1302063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -9869,7 +9869,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615040,2],[20625040,2],[20635040,2],[900001,5],[900001,6],[900001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -9899,14 +9899,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120301</preId>
 	<scenes>[1303031,1303032,1303033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>76484</recommendFight>
 	<lev>1</lev>
@@ -9947,14 +9947,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120302</preId>
 	<scenes>[1303061,1303062,1303063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>84139</recommendFight>
 	<lev>1</lev>
@@ -9995,14 +9995,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120303</preId>
 	<scenes>[1303031,1303032,1303033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -10043,7 +10043,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120304</preId>
 	<scenes>[1303041,1303042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10061,7 +10061,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215040,2],[20225040,2],[20235040,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10091,7 +10091,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120305</preId>
 	<scenes>[1303051,1303052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10109,7 +10109,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215040,2],[20225040,2],[20235040,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10139,7 +10139,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120306</preId>
 	<scenes>[1303061,1303062,1303063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10157,7 +10157,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215040,2],[20225040,2],[20235040,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10187,14 +10187,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120401</preId>
 	<scenes>[1304031,1304032,1304033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>92563</recommendFight>
 	<lev>1</lev>
@@ -10235,14 +10235,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120402</preId>
 	<scenes>[1304061,1304062,1304063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>101817</recommendFight>
 	<lev>1</lev>
@@ -10283,14 +10283,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120403</preId>
 	<scenes>[1304031,1304032,1304033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -10331,7 +10331,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120404</preId>
 	<scenes>[1304041,1304042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10349,7 +10349,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215050,2],[20225050,2],[20235050,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10379,7 +10379,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120405</preId>
 	<scenes>[1304051,1304052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10397,7 +10397,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315050,2],[20325050,2],[20335050,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10427,7 +10427,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120406</preId>
 	<scenes>[1304061,1304062,1304063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10445,7 +10445,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315050,2],[20325050,2],[20335050,2],[700001,5],[700001,6],[700001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10475,14 +10475,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120501</preId>
 	<scenes>[1305031,1305032,1305033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>112003</recommendFight>
 	<lev>1</lev>
@@ -10523,14 +10523,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120502</preId>
 	<scenes>[1305061,1305062,1305063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>123201</recommendFight>
 	<lev>1</lev>
@@ -10571,14 +10571,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120503</preId>
 	<scenes>[1305031,1305032,1305033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -10619,7 +10619,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120504</preId>
 	<scenes>[1305041,1305042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10637,7 +10637,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20515050,2],[20525050,2],[20535050,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10667,7 +10667,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120505</preId>
 	<scenes>[1305051,1305052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10685,7 +10685,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615050,2],[20625050,2],[20635050,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10715,7 +10715,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120506</preId>
 	<scenes>[1305061,1305062,1305063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10733,7 +10733,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615050,2],[20625050,2],[20635050,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10763,14 +10763,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120601</preId>
 	<scenes>[1306031,1306032,1306033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>135513</recommendFight>
 	<lev>1</lev>
@@ -10811,14 +10811,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120602</preId>
 	<scenes>[1306061,1306062,1306063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>149060</recommendFight>
 	<lev>1</lev>
@@ -10859,14 +10859,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120603</preId>
 	<scenes>[1306031,1306032,1306033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -10907,7 +10907,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120604</preId>
 	<scenes>[1306041,1306042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10925,7 +10925,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215050,2],[20225050,2],[20235050,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -10955,7 +10955,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120605</preId>
 	<scenes>[1306051,1306052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -10973,7 +10973,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215050,2],[20225050,2],[20235050,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11003,7 +11003,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120606</preId>
 	<scenes>[1306061,1306062,1306063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11021,7 +11021,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215050,2],[20225050,2],[20235050,2],[600001,5],[600001,6],[600001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11051,14 +11051,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120701</preId>
 	<scenes>[1307031,1307032,1307033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>163964</recommendFight>
 	<lev>1</lev>
@@ -11099,14 +11099,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120702</preId>
 	<scenes>[1307061,1307062,1307063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>180367</recommendFight>
 	<lev>1</lev>
@@ -11147,14 +11147,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120703</preId>
 	<scenes>[1307031,1307032,1307033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -11195,7 +11195,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120704</preId>
 	<scenes>[1307041,1307042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11213,7 +11213,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215060,2],[20225060,2],[20235060,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11243,7 +11243,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120705</preId>
 	<scenes>[1307051,1307052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11261,7 +11261,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315060,2],[20325060,2],[20335060,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11291,7 +11291,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120706</preId>
 	<scenes>[1307061,1307062,1307063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11309,7 +11309,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315060,2],[20325060,2],[20335060,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11339,14 +11339,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120801</preId>
 	<scenes>[1308031,1308032,1308033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>198410</recommendFight>
 	<lev>1</lev>
@@ -11387,14 +11387,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120802</preId>
 	<scenes>[1308061,1308062,1308063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>218255</recommendFight>
 	<lev>1</lev>
@@ -11435,14 +11435,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120803</preId>
 	<scenes>[1308031,1308032,1308033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -11483,7 +11483,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120804</preId>
 	<scenes>[1308041,1308042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11501,7 +11501,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20515060,2],[20525060,2],[20535060,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11531,7 +11531,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120805</preId>
 	<scenes>[1308051,1308052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11549,7 +11549,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615060,2],[20625060,2],[20635060,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11579,7 +11579,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120806</preId>
 	<scenes>[1308061,1308062,1308063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11597,7 +11597,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615060,2],[20625060,2],[20635060,2],[1000001,5],[1000001,6],[1000001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11627,14 +11627,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120901</preId>
 	<scenes>[1309031,1309032,1309033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>240084</recommendFight>
 	<lev>1</lev>
@@ -11675,14 +11675,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120902</preId>
 	<scenes>[1309061,1309062,1309063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>264101</recommendFight>
 	<lev>1</lev>
@@ -11723,14 +11723,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120903</preId>
 	<scenes>[1309031,1309032,1309033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>6</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -11771,7 +11771,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120904</preId>
 	<scenes>[1309041,1309042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11789,7 +11789,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215060,2],[20225060,2],[20235060,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11819,7 +11819,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120905</preId>
 	<scenes>[1309051,1309052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11837,7 +11837,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215060,2],[20225060,2],[20235060,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11867,7 +11867,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>120906</preId>
 	<scenes>[1309061,1309062,1309063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -11885,7 +11885,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215060,2],[20225060,2],[20235060,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -11915,14 +11915,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121001</preId>
 	<scenes>[1310031,1310032,1310033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>290507</recommendFight>
 	<lev>1</lev>
@@ -11963,14 +11963,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121002</preId>
 	<scenes>[1310061,1310062,1310063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>319565</recommendFight>
 	<lev>1</lev>
@@ -12011,14 +12011,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121003</preId>
 	<scenes>[1310031,1310032,1310033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>3</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -12059,7 +12059,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121004</preId>
 	<scenes>[1310041,1310042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12077,7 +12077,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215070,2],[20225070,2],[20235070,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12107,7 +12107,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121005</preId>
 	<scenes>[1310051,1310052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12125,7 +12125,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315070,2],[20325070,2],[20335070,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12155,7 +12155,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121006</preId>
 	<scenes>[1310061,1310062,1310063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12173,7 +12173,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315070,2],[20325070,2],[20335070,2],[500001,5],[500001,6],[500001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12203,14 +12203,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121101</preId>
 	<scenes>[1311031,1311032,1311033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>351520</recommendFight>
 	<lev>1</lev>
@@ -12251,14 +12251,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121102</preId>
 	<scenes>[1311061,1311062,1311063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>386674</recommendFight>
 	<lev>1</lev>
@@ -12299,14 +12299,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121103</preId>
 	<scenes>[1311031,1311032,1311033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>2</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -12347,7 +12347,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121104</preId>
 	<scenes>[1311041,1311042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12365,7 +12365,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20515070,2],[20525070,2],[20535070,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12395,7 +12395,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121105</preId>
 	<scenes>[1311051,1311052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12413,7 +12413,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615070,2],[20625070,2],[20635070,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12443,7 +12443,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121106</preId>
 	<scenes>[1311061,1311062,1311063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12461,7 +12461,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615070,2],[20625070,2],[20635070,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12491,14 +12491,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121201</preId>
 	<scenes>[1312031,1312032,1312033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>425351</recommendFight>
 	<lev>1</lev>
@@ -12539,14 +12539,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121202</preId>
 	<scenes>[1312061,1312062,1312063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>467897</recommendFight>
 	<lev>1</lev>
@@ -12587,14 +12587,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121203</preId>
 	<scenes>[1312031,1312032,1312033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>4</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -12635,7 +12635,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121204</preId>
 	<scenes>[1312041,1312042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12653,7 +12653,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215070,2],[20225070,2],[20235070,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12683,7 +12683,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121205</preId>
 	<scenes>[1312051,1312052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12701,7 +12701,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215070,2],[20225070,2],[20235070,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12731,7 +12731,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121206</preId>
 	<scenes>[1312061,1312062,1312063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12749,7 +12749,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215070,2],[20225070,2],[20235070,2],[800001,5],[800001,6],[800001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12779,14 +12779,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121301</preId>
 	<scenes>[1313031,1313032,1313033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>514694</recommendFight>
 	<lev>1</lev>
@@ -12827,14 +12827,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121302</preId>
 	<scenes>[1313061,1313062,1313063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>566170</recommendFight>
 	<lev>1</lev>
@@ -12875,14 +12875,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121303</preId>
 	<scenes>[1313031,1313032,1313033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>5</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -12923,7 +12923,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121304</preId>
 	<scenes>[1313041,1313042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12941,7 +12941,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215080,2],[20225080,2],[20235080,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -12971,7 +12971,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121305</preId>
 	<scenes>[1313051,1313052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -12989,7 +12989,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315080,2],[20325080,2],[20335080,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13019,7 +13019,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121306</preId>
 	<scenes>[1313061,1313062,1313063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13037,7 +13037,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20315080,2],[20325080,2],[20335080,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13067,14 +13067,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121401</preId>
 	<scenes>[1314031,1314032,1314033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>622789</recommendFight>
 	<lev>1</lev>
@@ -13115,14 +13115,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121402</preId>
 	<scenes>[1314061,1314062,1314063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>685078</recommendFight>
 	<lev>1</lev>
@@ -13163,14 +13163,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121403</preId>
 	<scenes>[1314031,1314032,1314033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>7</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -13211,7 +13211,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121404</preId>
 	<scenes>[1314041,1314042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13229,7 +13229,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20515080,2],[20525080,2],[20535080,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13259,7 +13259,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121405</preId>
 	<scenes>[1314051,1314052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13277,7 +13277,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615080,2],[20625080,2],[20635080,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13307,7 +13307,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121406</preId>
 	<scenes>[1314061,1314062,1314063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13325,7 +13325,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615080,2],[20625080,2],[20635080,2],[400001,5],[400001,6],[400001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13355,14 +13355,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121501</preId>
 	<scenes>[1315031,1315032,1315033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>753584</recommendFight>
 	<lev>1</lev>
@@ -13403,14 +13403,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121502</preId>
 	<scenes>[1315061,1315062,1315063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>828934</recommendFight>
 	<lev>1</lev>
@@ -13451,14 +13451,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121503</preId>
 	<scenes>[1315031,1315032,1315033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>1</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>0</recommendFight>
 	<lev>1</lev>
@@ -13499,7 +13499,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121504</preId>
 	<scenes>[1315041,1315042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13517,7 +13517,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215080,2],[20225080,2],[20235080,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13547,7 +13547,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121505</preId>
 	<scenes>[1315051,1315052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13565,7 +13565,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215080,2],[20225080,2],[20235080,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13595,7 +13595,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121506</preId>
 	<scenes>[1315061,1315062,1315063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13613,7 +13613,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20215080,2],[20225080,2],[20235080,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13643,14 +13643,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121601</preId>
 	<scenes>[1316031,1316032,1316033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>911837</recommendFight>
 	<lev>1</lev>
@@ -13691,14 +13691,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121602</preId>
 	<scenes>[1316061,1316062,1316063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>300</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight>1003023</recommendFight>
 	<lev>1</lev>
@@ -13739,14 +13739,14 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121603</preId>
 	<scenes>[1316031,1316032,1316033]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
 	<passType>1</passType>
 	<camp>8</camp>
 	<groupName></groupName>
-	<timeLimit>210</timeLimit>
+	<timeLimit>180</timeLimit>
 	<needEnergy>6</needEnergy>
 	<recommendFight></recommendFight>
 	<lev>1</lev>
@@ -13787,7 +13787,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121604</preId>
 	<scenes>[1316041,1316042]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13805,7 +13805,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20515090,2],[20525090,2],[20535090,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13835,7 +13835,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121605</preId>
 	<scenes>[1316051,1316052]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13853,7 +13853,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615090,2],[20625090,2],[20635090,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>80</getstarbytime>
+	<getstarbytime>60</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>
@@ -13883,7 +13883,7 @@
 	<name_en></name_en>
 	<nameType></nameType>
 	<desc></desc>
-	<preId></preId>
+	<preId>121606</preId>
 	<scenes>[1316061,1316062,1316063]</scenes>
 	<type>1</type>
 	<difficulty>3</difficulty>
@@ -13901,7 +13901,7 @@
 	<starRewards></starRewards>
 	<randomRates>[60,60,60,25,25,25]</randomRates>
 	<randomRewards>[[20615090,2],[20625090,2],[20635090,2],[1100001,5],[1100001,6],[1100001,7]]</randomRewards>
-	<getstarbytime>60</getstarbytime>
+	<getstarbytime>120</getstarbytime>
 	<getstarbyhit>100</getstarbyhit>
 	<isStopTimeWhenPause></isStopTimeWhenPause>
 	<monsterId>110027</monsterId>

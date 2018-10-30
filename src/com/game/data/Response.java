@@ -12,8 +12,6 @@ public class Response {
 	public static final int NO_ENERGY=5;//体力不足
 	public static final int ERR_PARAM=6;//参数错误,非法请求
 	public static final int NO_VIP=7;//VIP等级不足
-	public static final int BAN_LOGIN=8;//角色处于封禁中,请 联系客服
-	public static final int BAN_CHAT=9;//您的账号处于禁言中
 	public static final int NO_LEV=10;//等级不足
 	public static final int SYS_NUM_ERR=11;//系统检测到异常行为1，即将断开连接，请联系客服
 	public static final int SYS_KEY_ERR=12;//系统检测到异常行为2，即将断开连接，请联系客服
@@ -49,6 +47,7 @@ public class Response {
 	public static final int MAX_STRENGTH=1202;//强化等级已满
 	public static final int MAX_LEV=1203;//已经是最高级了
 	public static final int STRENGTH_FAIL=1204;//强化失败，返还50%材料
+	public static final int NO_EQUIPPARTSUP=1205;//升星失败
 	//任务系统
 	public static final int TASK_NOT_FINISHED=1301;//任务尚未完成
 	public static final int TASK_JOINTED=1302;//对方已接取协助任务
@@ -190,7 +189,7 @@ public class Response {
 	public static final int GROUP_LEADER_HAS_NOT_FIGHT=4160;//需要等待团长出战
 	public static final int GROUP_ALREADY_START=4161;//副本已经开始，无法加入
 	//宠物
-	public static final int PET_SHOW_NOT_ENOUGH=4199;//C级宠物才可跟随玩家在主城显示
+	public static final int PET_SHOW_NOT_ENOUGH=4199;//两星宠物才可跟随玩家在主城显示
 	public static final int PET_HAS_SAME_TYPE=4200;//拥有同类型宠物
 	public static final int PET_MATERIAL_NOT_ENOUGH=4201;//宠物碎片不够
 	public static final int PET_NOT_EXIST=4202;//宠物不存在
@@ -224,5 +223,10 @@ public class Response {
 	public static final int FACEBOOK_NO_FACEBOOK=4402;//非Facebook账号登陆
 	public static final int FACEBOOK_NOT_INVITOR=4403;//非邀请玩家
 	public static final int FACEBOOK_EMAIL_INVITE_TITLE=4410;//Facebook玩家邀请奖励
+	//封禁提示
+	public static final int BAN_LOGIN=4501;//账户处于封禁中，请联系客服
+	public static final int BAN_IP=4502;//IP处于封禁中，请联系客服
+	public static final int BAN_IMEI=4503;//设备处于封禁中，请联系客服
+	public static final int BAN_CHAT=4504;//角色处于禁言中，请联系客服
 
 }

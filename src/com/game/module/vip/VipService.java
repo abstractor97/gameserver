@@ -9,6 +9,7 @@ import com.game.module.activity.ActivityService;
 import com.game.module.activity.WelfareCardService;
 import com.game.module.attach.charge.ChargeActivityLogic;
 import com.game.module.daily.DailyService;
+import com.game.module.gang.Gang;
 import com.game.module.gang.GangService;
 import com.game.module.goods.Goods;
 import com.game.module.goods.GoodsEntry;
@@ -17,8 +18,14 @@ import com.game.module.log.LogConsume;
 import com.game.module.player.Player;
 import com.game.module.player.PlayerData;
 import com.game.module.player.PlayerService;
+import com.game.module.serial.SerialData;
+import com.game.module.serial.SerialDataService;
 import com.game.module.shop.ShopService;
+import com.game.module.worldboss.HurtRecord;
 import com.game.params.*;
+import com.game.params.rank.LadderRankVO;
+import com.game.params.rank.LevelRankVO;
+import com.game.params.rank.SkillCardRankVO;
 import com.game.sdk.talkdata.TalkDataService;
 import com.game.util.ConfigData;
 import com.game.util.Context;
@@ -28,8 +35,13 @@ import com.server.util.ServerLogger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.ConcurrentSkipListMap;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 @Service
 public class VipService {
@@ -49,6 +61,13 @@ public class VipService {
     private static final int FUND_ID = 41;// 基金id
     public static final int KEY = 0xef;
 
+    public static final String SIMULATION__RECHARGE = "test";
+
+    protected final ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
+    protected final ReentrantReadWriteLock.ReadLock readLock = lock.readLock();
+    protected final ReentrantReadWriteLock.WriteLock writeLock = lock.writeLock();
+    private static final int RANK_NUMBER = 50;
+
     @Autowired
     private PlayerService playerService;
     @Autowired
@@ -67,6 +86,8 @@ public class VipService {
     private ShopService shopService;
     @Autowired
     private GangService gangService;
+    @Autowired
+    private SerialDataService serialDataService;
 
     // 获取vip奖励
     public int getVipReward(int playerId, int vipLev) {
@@ -199,8 +220,7 @@ public class VipService {
             data.setFundActive(1);
         }
 
-        //cpId = cpId ^ KEY; //解密
-        if (!SysConfig.gm) {
+        if (!SysConfig.gm && !paymentType.equals(SIMULATION__RECHARGE)) {
             if (!data.getCpIdSet().contains(cpId)) { //不包含此订单
                 ServerLogger.warn("Err charge cpId:" + cpId, playerId);
                 return;
@@ -212,7 +232,7 @@ public class VipService {
             }
         }
 
-        if (SysConfig.report) {
+        if (SysConfig.report && !paymentType.equals(SIMULATION__RECHARGE)) {
             Context.getThreadService().execute(new Runnable() {
                 @Override
                 public void run() {
@@ -230,11 +250,6 @@ public class VipService {
         playerService.addVipExp(playerId, charge.total);
         playerService.addDiamond(playerId, charge.total, LogConsume.CHARGE);
         playerService.addDiamond(playerId, charge.add, LogConsume.CHARGE_ADD);
-//        data.getDealCpIdSet().add(cpId);
-//        data.getCpIdSet().remove(cpId);
-//        data.setRechargeCount(data.getRechargeCount()+1);//充值次数
-//        data.setRechargeTreasure(data.getRechargeTreasure()+charge.total + charge.add);//充值元宝
-//        data.setLastRechargeTime(new Date());//最后充值时间
         chargeActivityLogic.updateCharge(playerId, charge.total);
         // 每日数据更新
         dailyService.refreshDailyVo(playerId);
@@ -257,7 +272,6 @@ public class VipService {
         welfareCardService.buyWelfareCard(playerId, charge.type, id);
         if (!data.isFirstRechargeFlag()) {
             data.setFirstRechargeFlag(true);
-//            data.setFirstRechargeTime(new Date());
         }
 
         if (type != TYPE_TIMED && type != TYPE_SPECIAL) {//限时礼包和特价礼包不计入累计充值
@@ -271,11 +285,9 @@ public class VipService {
 
         activityService.completeActivityTask(playerId, ActivityConsts.ActivityTaskCondType.T_TIMED_MONEY, (int) charge.rmb, ActivityConsts.UpdateType.T_ADD, true);//充了钱就算礼包
         activityService.completeActivityTask(playerId, ActivityConsts.ActivityTaskCondType.T_DAILY_RECHARGE_DIAMONDS, charge.total, ActivityConsts.UpdateType.T_ADD, true);//每日充值钻石
-        //activityService.completeActivityTask(playerId, ActivityConsts.ActivityTaskCondType.T_TIMED_ONCE, (int) charge.rmb, ActivityConsts.UpdateType.T_VALUE, true);//单笔充值满足(取最大那个)
         activityService.completeActivityTask(playerId, ActivityConsts.ActivityTaskCondType.T_TIMED_BAG, id, ActivityConsts.UpdateType.T_VALUE, true);//限时礼包和特价礼包
         activityService.onceRecharge(playerId, charge.rmb);//单笔充值满足(取最大那个)
         activityService.dailyRecharge(playerId, charge.rmb);//每日充值(7日充值)
-
 
         if (charge.shopGoodsId != 0) {
             shopService.buy(playerId, charge.shopGoodsId, 1);
@@ -285,14 +297,11 @@ public class VipService {
         Player player = playerService.getPlayer(playerId);
         Context.getLoggerService().logCharge(playerId, player.getName(), id, currentType, f, player.getServerId(), paymentType);
 
-        data.setTotalCharge(data.getTotalCharge() + charge.rmb);
+        data.setTotalCharge(data.getTotalCharge() + f);
         playerService.saveCharge(player.getAccName(), playerId, player.getName(), Math.round(data.getTotalCharge()), data.getMaxLoginContinueDays());
-        //        Player player = playerService.getPlayer(playerId);
-//        String gangeName = "";
-//        if (player.getGangId() != 0) {
-//            gangeName = gangService.getGang(player.getGangId()).getName();
-//        }
-//        Context.getLoggerService().playerOrder(orderId,data.getCpId(),player.getServerId(),playerId,playerId,charge.shopGoodsId,charge.rmb,charge.rmb,charge.total+charge.add,charge.type,player.getLev(),player.getDiamond(),player.getName(),charge.name);
+
+        //充值排行
+        updateLevelRankings(playerId, data.getTotalCharge());
     }
 
     /**
@@ -377,5 +386,100 @@ public class VipService {
         param.param2 = rechargeId;
         ServerLogger.warn("rechargeId = " + rechargeId + " order = " + orderID);
         return param;
+    }
+
+    //更新充值排行
+    private void updateLevelRankings(int playerId, float totalCharge) {
+        Player player = playerService.getPlayer(playerId);
+        if (player == null) {
+            ServerLogger.warn("玩家不存在，玩家ID=" + playerId);
+            return;
+        }
+
+        SerialData serialData = serialDataService.getData();
+        if (serialData == null) {
+            ServerLogger.warn("序列化数据不存在");
+            return;
+        }
+
+        LevelRankVO levelRankVO = new LevelRankVO();
+        levelRankVO.name = player.getName();
+        levelRankVO.level = player.getLev();
+        levelRankVO.vocation = player.getVocation();
+        levelRankVO.fightingValue = player.getFight();
+        levelRankVO.playerId = playerId;
+        levelRankVO.coins = totalCharge;
+        levelRankVO.vip = player.getVip();
+        int gangId = player.getGangId();
+        if (gangId > 0) {
+            Gang gang = gangService.getGang(gangId);
+            levelRankVO.gang = gang.getName();
+        }
+        Map<Integer, LevelRankVO> levelRankingsMap = serialData.getLevelRankingsMap();
+
+        writeLock.lock();//写锁
+        try {
+            levelRankingsMap.put(playerId, levelRankVO);
+            List<Map.Entry<Integer, LevelRankVO>> levelRankVOArrayList = new ArrayList<>(levelRankingsMap.entrySet());
+            levelRankVOArrayList.sort(new Comparator<Map.Entry<Integer, LevelRankVO>>() {
+                @Override
+                public int compare(Map.Entry<Integer, LevelRankVO> o1, Map.Entry<Integer, LevelRankVO> o2) {
+                    if (o1.getValue().coins == o2.getValue().coins) {
+                        return o2.getValue().level - o1.getValue().level;
+                    }
+                    return (int) (o2.getValue().coins - o1.getValue().coins);
+                }
+            });
+            levelRankingsMap.clear();
+            for (int i = 0; i < levelRankVOArrayList.size(); i++) {
+                if (i >= RANK_NUMBER) {
+                    break;
+                }
+                levelRankingsMap.put(levelRankVOArrayList.get(i).getKey(), levelRankVOArrayList.get(i).getValue());
+            }
+        } finally {
+            writeLock.unlock();
+        }
+    }
+
+    //获取充值排行
+    public List<LevelRankVO> getLevelRankings(int playerId) {
+        Player player = playerService.getPlayer(playerId);
+        if (player == null) {
+            ServerLogger.warn("玩家不存在，玩家ID=" + playerId);
+            return null;
+        }
+
+        SerialData serialData = serialDataService.getData();
+        if (serialData == null) {
+            ServerLogger.warn("序列化数据不存在");
+            return null;
+        }
+
+        Map<Integer, LevelRankVO> levelRankingsMap = serialData.getLevelRankingsMap();
+        if (levelRankingsMap == null) {
+            ServerLogger.warn("充值排行不存在");
+            return null;
+        }
+
+        writeLock.lock();//读锁
+        try {
+            for (LevelRankVO levelRankVO : levelRankingsMap.values()) {
+                Player playerTemp = playerService.getPlayer(levelRankVO.playerId);
+                levelRankVO.level = playerTemp.getLev();
+                levelRankVO.fightingValue = playerTemp.getFight();
+                levelRankVO.vip = playerTemp.getVip();
+                int gangId = playerTemp.getGangId();
+                if (gangId > 0) {
+                    Gang gang = gangService.getGang(gangId);
+                    levelRankVO.gang = gang.getName();
+                } else {
+                    levelRankVO.gang = null;
+                }
+            }
+            return new ArrayList<>(levelRankingsMap.values());//等finally执行后才会返回
+        } finally {
+            writeLock.unlock();
+        }
     }
 }

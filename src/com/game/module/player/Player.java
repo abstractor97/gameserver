@@ -106,6 +106,14 @@ public class Player implements PlayerAddition {
     public int roomTeamId;
     private int totalChargeMoney;//累计充值金额
 
+    public String getClientMac() {
+        return clientMac;
+    }
+
+    public void setClientMac(String clientMac) {
+        this.clientMac = clientMac;
+    }
+
     private List<Integer> attrList = new ArrayList<>(12);
 
     public List<Integer> getAttrList() {
@@ -557,10 +565,14 @@ public class Player implements PlayerAddition {
     }
 
     public boolean checkHurt(int hurt) {
+        return checkHurt(hurt, 1);
+    }
+
+    public boolean checkHurt(int hurt, float factor) {
         if (SysConfig.gm) {
             return true;
         }
-        int maxHurt = (int) (fight * 0.06 * 1.65 * 3 * 2.05 + 4185);
+        int maxHurt = (int) ((fight * 0.06 * 1.65 * 3 * 2.05 + 4185) * factor);
         return hurt <= maxHurt;
     }
 }
